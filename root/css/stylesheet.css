@@ -1,0 +1,68 @@
+/*Proyecto realizado por Nazarena Florencia Rusin*/
+
+/*Ajusta el tamaño de la página en general*/
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*Ajusto la imagen de fondo*/
+body{
+    background-image: url('/root/img/fondo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Ajusta el tamaño de la barra de navegación*/
+.navbar{
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+}
+
+/*Ajusta el tamaño y da estilo al formulario de registro en general*/
+.form-register{
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px solid #F8F9F9;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom:0px ;
+    min-width: 200px;
+}
+
+/*Ajusta tamaño del boton del formulario*/
+.form-register .boton{
+    width: 100%;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/*Ajusta el tamaño y da estilo a cada input del formulario*/
+.controls{
+    width: 100%;
+    background-color:#F8F9F9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px ;
+    font-size: 18px;
+}
+
+/*Ajusta el tamaño y da estilo al pie de página*/
+.footer{
+    background-color: #F8F9F9;
+    margin-top: 50px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    min-width: 300px;
+    margin-bottom:0px ;
+}

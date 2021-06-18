@@ -1,0 +1,9 @@
+aclaración: el index se encuentra en la carpeta views ya que el proyecto lo hice con express y es formato ejs en vez de html (ejs es un html en el que ya viene
+integrado javascript), ademas de que el server corre en el puerto 4000. El proyecto lo hice mediante visual studio code y utilice su terminal. Utilice Bootstrap y
+Animate.css para el frontend y la animación del formulario, JQuery para validaciones de javascript, Express para el GET y POST, y SweetAlert2 para los Pop-Up.
+
+1_npm install (instala las dependencias que utilice para realizar el proyecto)
+2_npm run dev (script ya creado para correrlo con nodemon(es una herramienta que sirve para que levantar el servidor y no tener que darlo de baja por cada cambio
+que se hace en la página))
+3_Cree la ruta localhost:4000/get para poder ver directamente lo que recibe la pagina de la api
+

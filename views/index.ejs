@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Proyecto realizado por Nazarena Florencia Rusin-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Instalo Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--Instalo animate css-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>Trasa</title>
+  <!--Linkeo los estilos y las imagenes al HTML-->
+  <link rel="stylesheet" href="../root/css/stylesheet.css">
+  <link rel="icon" href="../root/img/Logo.ico">
+</head>
+
+<body>
+  <!--Barra de Navegación-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="/root/img/Logo.png" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      </div>
+    </div>
+  </nav>
+  <!---->
+
+  <!--Formulario de Registro-->
+  <form action="" method="POST" id="formulario" class="animate__bounceIn">
+    <section class="form-register mb-3 mb-md0">
+      <div id="grupo-nombre">
+        <input class="controls" type="text" name="name" id="nombre" placeholder="Nombre" required=""
+          onkeypress="return soloLetras(event)">
+        <!---->
+      </div>
+
+      <div id="grupo-email">
+        <input class="controls" type="email" name="email" id="email" placeholder="Email" required="">
+      </div>
+
+      <div id="grupo-asunto">
+        <input class="controls" type="text" name="subject" id="asunto" placeholder="Asunto" required="">
+        <!---->
+      </div>
+      <div id="grupo-mensaje">
+        <input class="controls" type="text" name="message" id="mensaje" placeholder="Mensaje" required="">
+        <!---->
+      </div>
+
+      <input class="boton" type="submit" value="Solicitar" id="guardar">
+
+    </section>
+  </form>
+  <!---->
+
+  <!--Footer-->
+  <footer class="footer pb-4 pt-4 ">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-lg">
+          <li>INFORMACIÓN</li>
+          <p class="info">Nuestro horario de atencion es de lunes a viernes <br>
+            de 9 a 14hs y 17 a 21hs; y los sabados de 9 a 14hs</p>
+        </div>
+
+        <div class="col-12 col-lg">
+          <li>SOBRE NOSOTROS</li>
+          <p>Somos la plataforma transaccional lider <br>
+            En gestion de cobros y pagos con mas de 20mil comercios adheridos</p>
+        </div>
+      </div>
+  </footer>
+  <!---->
+
+  <!--Scripts de Javascript-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../root/js/validaciones.js"></script>
+</body>
+
+</html>
